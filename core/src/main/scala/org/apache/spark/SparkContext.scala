@@ -215,7 +215,7 @@ class SparkContext(config: SparkConf) extends Logging {
   private var _statusStore: AppStatusStore = _
 
   /* ------------------------------------------------------------------------------------- *
-   | Accessors and public fields. These provide access to the internal state of the        |
+   | Accessors and public fields. These provide access to the internal内部 state of the    |
    | context.                                                                              |
    * ------------------------------------------------------------------------------------- */
 
